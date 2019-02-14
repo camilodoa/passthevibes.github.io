@@ -6,6 +6,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
+#main{
+  display: block;
+  float: left;
+  width : 35em;
+  height : 64em;
+  padding: 0px 20px 0px 30px;
+}
+
 div.block{
   display: inline-block;
   float: left;
@@ -34,9 +42,9 @@ span.blockinfo{
 img.square {
 border-radius: 25px;
 width: auto;
-max-width: 250px;
+max-width: 350px;
 height: auto;
-max-height: 250px;
+max-height: 350px;
 }
 
 div.header{
