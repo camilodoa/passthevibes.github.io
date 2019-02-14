@@ -1,0 +1,37 @@
+#title{
+  text-align: center;
+  font-size: 4em;
+  font-weight: 500;
+  font-stretch: expanded;
+  font-family: 'Roboto', sans-serif;
+}
+
+div.block{
+  display: inline-block;
+  float: left;
+  width : 35em;
+}
+span.blockinfo{
+  text-align: left;
+  font-size: 1em;
+  font-weight: 400;
+  font-stretch: semi-expanded;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img.square {
+/* border-radius: 50%; */
+width: auto;
+max-width: 250px;
+height: auto;
+max-height: 250px;
+}
+
+div{
+  padding: 15px 15px 15px 15px;
+  display: inline-block;
+}
+
+img {
+    image-orientation: from-image;
+}
