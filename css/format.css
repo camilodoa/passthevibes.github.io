@@ -27,8 +27,6 @@ header.center{
 div.block{
   display: inline-block;
   float: left;
-  /* margin-left: 24px;
-  margin-right: 24px; */
   width: 50%;
   /* margin-bottom: 24px; */
 }
