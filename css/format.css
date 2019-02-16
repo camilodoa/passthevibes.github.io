@@ -55,9 +55,6 @@
 header.center{
   text-align: center;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 div.center{
@@ -100,9 +97,13 @@ body {
 }
 
 @media only screen and (min-width: 860px){
-  grid-template-columns: 1.5em minmax(400px, 650px);
-  grid-template-areas:
-    "header header header header"
-    ". block-1 block-2 ."
-    ". block-3 block-4 ."
+  body {
+    grid-template-columns: 1.5em minmax(400px, 650px);
+    grid-template-areas:
+      "header header header header"
+      ". block-1 block-2 ."
+      ". block-3 block-4 ."
+  }
+
+
 }
