@@ -20,29 +20,8 @@
   display: inline-block;
 }
 
-
-header.center{
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-div.block{
-  display: inline-block;
-  width: 50%;
-  /* margin-bottom: 24px; */
-}
-
-div.center{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-div.header{
+#header{
+  grid-column: header;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -55,6 +34,40 @@ div.header{
   font-family: 'Open Sans', sans-serif;
   color: #808080;
 }
+
+#block-1{
+  grid-area: block-1;
+}
+
+#block-2{
+  grid-area: block-2;
+}
+
+#block-3{
+  grid-area: block-3;
+}
+
+#block-4{
+  grid-area: block-4;
+}
+
+
+header.center{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.center{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
 
 div{
   padding: 5px 5px 5px 5px;
@@ -73,4 +86,23 @@ img.square{
 
 img{
   image-orientation: from-image;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1.5em 1fr 1.5em;
+  grid-template-areas:
+    "header header header "
+    ". block-1 ."
+    ". block-2 ."
+    ". block-3 ."
+    ". block-4 ."
+}
+
+@media only screen and (min-width: 860px){
+  grid-template-columns: 1.5em minmax(400px, 650px);
+  grid-template-areas:
+    "header header header header"
+    ". block-1 block-2 ."
+    ". block-3 block-4 ."
 }
