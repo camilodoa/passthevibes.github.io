@@ -66,10 +66,11 @@ div{
 
 img.square{
   border-radius: 25px;
+
   width: auto;
   max-width: 270px;
   height: auto;
-  max-height: 270px;
+  /* max-height: 270px; */
 }
 
 img{
