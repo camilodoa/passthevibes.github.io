@@ -10,7 +10,7 @@
 
 #main{
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 #center-div{
@@ -36,18 +36,22 @@
 
 #block-1{
   grid-area: block-1;
+  display: inline-block;
 }
 
 #block-2{
   grid-area: block-2;
+  display: inline-block;
 }
 
 #block-3{
   grid-area: block-3;
+  display: inline-block;
 }
 
 #block-4{
   grid-area: block-4;
+  display: inline-block;
 }
 
 
@@ -85,6 +89,7 @@ img{
 }
 
 body {
+  width: 100%;
   display: grid;
   grid-template-columns: 1.5em 1fr 1.5em;
   grid-template-areas:
@@ -97,12 +102,11 @@ body {
 
 @media only screen and (min-width: 860px){
   body {
-    grid-template-columns: 1.5em minmax(400px, 650px);
+    width: 100%;
+    grid-template-columns: 1.5em minmax(500px, 800px);
     grid-template-areas:
       "header header header header"
       ". block-1 block-2 ."
       ". block-3 block-4 ."
   }
-
-
 }
