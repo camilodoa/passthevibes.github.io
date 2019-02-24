@@ -1,5 +1,5 @@
 # SLEPTON
 
-The main page for slepton.tk
+The main page for SLEPTON
 
 https://slepton.tk
