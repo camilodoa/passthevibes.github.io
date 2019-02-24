@@ -7,24 +7,24 @@ body/main div formatting
 }
 body {
   width: 960px;
-  display: grid;
-  grid-template-columns: 1.5em 1fr 1.5em;
+  grid-template-columns: 1.5em minmax(500px, 800px);
   grid-template-areas:
-    "header header header "
-    ". block-1 ."
-    ". block-2 ."
-    ". block-3 ."
-    ". block-4 ."
+    "header header header header"
+    ". block-1 block-2 ."
+    ". block-3 block-4 ."
 }
 
 @media only screen and (min-width: 860px){
   body {
-    width: 860px;
-    grid-template-columns: 1.5em minmax(500px, 800px);
-    grid-template-areas:
-      "header header header header"
-      ". block-1 block-2 ."
-      ". block-3 block-4 ."
+      width: 860px;
+      display: grid;
+      grid-template-columns: 1.5em 1fr 1.5em;
+      grid-template-areas:
+        "header header header "
+        ". block-1 ."
+        ". block-2 ."
+        ". block-3 ."
+        ". block-4 ."
   }
 }
 
