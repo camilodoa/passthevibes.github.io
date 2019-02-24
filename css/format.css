@@ -75,8 +75,8 @@ div.features{
 div.block{
   display: block;
 
-  width: auto;
-  max-width: 271px;
+  /* width: auto; */
+  max-width: 300px;
   height: auto;
 
   float: none;
