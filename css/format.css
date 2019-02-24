@@ -82,7 +82,8 @@ div.block{
   text-align: center;
   border-radius: 25px;
   background-color: #DCDCDC;
-  font-color: #808080;
+  font-color: #696969;
+  margin: 40px;
 }
 
 div.block.1{
