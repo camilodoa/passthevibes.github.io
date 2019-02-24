@@ -34,10 +34,7 @@ body {
 /*
   general stuff
 */
-div{
-  padding: 5px 5px 5px 5px;
-  display: inline-block;
-}
+
 img{
   image-orientation: from-image;
 }
