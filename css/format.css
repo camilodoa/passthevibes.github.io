@@ -80,10 +80,13 @@ div.block{
   display: inline-block;
   float: none;
   text-align: center;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   background-color: #DCDCDC;
   font-color: #696969;
   margin: 40px;
+  border-width:2px;
+  border-style:solid;
+  border-color:black;
 }
 
 div.block.1{
@@ -107,6 +110,10 @@ header.center{
   text-align: center;
   display: block;
 }
+
+/*
+  image stuff
+*/
 
 img.square{
   border-radius: 25px;
