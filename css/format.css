@@ -120,12 +120,12 @@ img.square{
 */
 @media only screen and (max-width: 768px){
   body {
-      float: none;
-      margin: auto;
-      width: 100%;
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-areas:
+    float: none;
+    margin: 0 auto;
+    /* max-width: 1024px; */
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas:
         " header "
         " block-1 "
         " block-2 "
