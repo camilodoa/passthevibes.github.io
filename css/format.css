@@ -118,11 +118,12 @@ img.square{
 /*
   media stuff
 */
+
+/*
 @media only screen and (max-width: 768px){
   body {
     float: none;
     margin: 0 auto;
-    /* max-width: 1024px; */
     width: 100%;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -133,3 +134,4 @@ img.square{
         " block-4 "
   }
 }
+*/
