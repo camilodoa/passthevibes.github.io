@@ -74,6 +74,9 @@ div.block{
   display: inline-block;
   float: none;
   text-align: center;
+  border-radius: 25px;
+  background-color: #DCDCDC;
+  font-color: #808080;
 }
 
 #block-1{
