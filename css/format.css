@@ -41,10 +41,7 @@ div.header{
 
   background-color: #E0E0E0;
   margin: auto;
-  display: -webkit-flex;
- display: flex;
- -webkit-flex-wrap: wrap;
- flex-wrap: wrap;
+  
 }
 
 #title{
