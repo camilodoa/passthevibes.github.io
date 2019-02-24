@@ -38,6 +38,8 @@ div.header{
 div.center{
   text-align: center;
   display: inline-block;
+  margin: auto;
+  
 }
 
 
