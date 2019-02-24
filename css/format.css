@@ -28,7 +28,8 @@ img{
   title stuff
 */
 div.header{
-  grid-column: header;
+  grid-area: header;
+
   font-weight: 400;
   font-stretch: semi-expanded;
   background-color: #E0E0E0;
