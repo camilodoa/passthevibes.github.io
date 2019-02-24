@@ -31,8 +31,6 @@ div.header{
   grid-area: header;
   align-self: center;
 
-  font-weight: 400;
-  font-stretch: semi-expanded;
   background-color: #E0E0E0;
   margin: auto;
 }
