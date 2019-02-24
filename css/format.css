@@ -39,6 +39,7 @@ div.center{
   text-align: center;
   display: inline-block;
   margin: auto;
+  width: 100%;
 
 }
 
@@ -71,7 +72,7 @@ div.features{
 }
 
 div.block{
-  display: inline-block;
+  display: block;
 
   width: auto;
   max-width: 271px;
