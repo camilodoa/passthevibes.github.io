@@ -4,10 +4,10 @@ body/main div formatting
 
 body {
   float: none;
-  margin: auto;
+  margin: 0 auto;
   min-width: 960px;
-  max-width: 1400px;
-  width: 90%;
+  /* max-width: 1024px; */
+  width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     " . header ."
@@ -15,7 +15,7 @@ body {
     ". block-3 block-4 ."
 }
 
-@media only screen and (max-width: 860px){
+@media only screen and (max-width: 768px){
   body {
       float: none;
       margin: auto;
@@ -46,7 +46,7 @@ img{
   grid-column: header;
   font-weight: 400;
   font-stretch: semi-expanded;
-  background-color: #696969;
+  background-color: #E0E0E0;
   margin: auto;
 }
 
@@ -76,13 +76,17 @@ div.features{
 }
 
 div.block{
+  width: auto;
+  max-width: 270px;
+  height: auto;
+
   float: none;
   text-align: center;
   /* background-color: #DCDCDC; */
   margin: 40px;
   border-width:1px;
   border-style:solid;
-  border-color:#696969;
+  border-color:#E0E0E0;
 }
 
 span.info{
