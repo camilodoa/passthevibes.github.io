@@ -10,7 +10,7 @@ body {
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    " . header ."
+    " header header header header "
     ". block-1 block-2 ."
     ". block-3 block-4 ."
 }
@@ -23,11 +23,11 @@ body {
       display: grid;
       grid-template-columns: 1fr ;
       grid-template-areas:
-        ". header ."
-        ". block-1 ."
-        ". block-2 ."
-        ". block-3 ."
-        ". block-4 ."
+        " header "
+        " block-1 "
+        " block-2 "
+        " block-3 "
+        " block-4 "
   }
 }
 
