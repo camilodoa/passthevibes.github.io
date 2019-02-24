@@ -85,23 +85,19 @@ div.block{
   font-color: #808080;
 }
 
-#block-1{
-  @extend div.block;
+div.block.1{
   grid-area: block-1;
 }
 
-#block-2{
-  @extend div.block;
+div.block.2{
   grid-area: block-2;
 }
 
-#block-3{
-  @extend div.block;
+div.block.3{
   grid-area: block-3;
 }
 
-#block-4{
-  @extend div.block;
+div.block.4{
   grid-area: block-4;
 }
 
