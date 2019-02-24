@@ -35,6 +35,11 @@ div.header{
   margin: auto;
 }
 
+div.center{
+  text-align: center;
+  display: inline-block;
+}
+
 
 #title{
   text-align: center;
@@ -63,6 +68,8 @@ div.features{
 }
 
 div.block{
+  display: inline-block;
+
   width: auto;
   max-width: 271px;
   height: auto;
