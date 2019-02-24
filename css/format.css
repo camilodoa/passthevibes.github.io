@@ -39,7 +39,7 @@ div.center{
   text-align: center;
   display: inline-block;
   margin: auto;
-  
+
 }
 
 
@@ -51,6 +51,7 @@ div.center{
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: white;
+  width: 100%;
 }
 
 #bio{
