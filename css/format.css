@@ -21,7 +21,6 @@ body {
   body {
       float: none;
       margin: auto;
-      max-width: 860px;
       width: 100%;
       display: grid;
       grid-template-columns: 1fr ;
