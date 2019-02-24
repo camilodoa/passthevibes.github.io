@@ -120,7 +120,10 @@ header.center{
 img.square{
   /* border-radius: 25px; */
   width: auto;
-  max-width: 270px;
+  max-width: inherit;
   height: auto;
+  border-width:1px;
+  border-style:solid;
+  border-color:#E0E0E0;
   /* max-height: 270px; */
 }
