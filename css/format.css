@@ -70,24 +70,30 @@ img{
   song block stuff
 */
 
-#block-1{
-  grid-area: block-1;
+div.block{
   display: inline-block;
+  float: none;
+  text-align: center;
+}
+
+#block-1{
+  @extend div.block;
+  grid-area: block-1;
 }
 
 #block-2{
+  @extend div.block;
   grid-area: block-2;
-  display: inline-block;
 }
 
 #block-3{
+  @extend div.block;
   grid-area: block-3;
-  display: inline-block;
 }
 
 #block-4{
+  @extend div.block;
   grid-area: block-4;
-  display: inline-block;
 }
 
 
