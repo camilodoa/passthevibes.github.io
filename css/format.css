@@ -1,9 +1,7 @@
 /*
 body/main div formatting
 */
-#center-div{
-  display: inline-block;
-}
+
 body {
   float: none;
   margin: auto;
@@ -49,7 +47,6 @@ img{
 */
 #header{
   grid-column: header;
-  display: block;
   font-weight: 400;
   font-stretch: semi-expanded;
   background-color: #696969;
@@ -82,7 +79,6 @@ div.features{
 }
 
 div.block{
-  display: inline-block;
   float: none;
   text-align: center;
   /* background-color: #DCDCDC; */
@@ -115,7 +111,6 @@ div.block.4{
 
 header.center{
   text-align: center;
-  display: block;
 }
 
 /*
