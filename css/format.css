@@ -69,6 +69,7 @@ div.center{
 */
 div.features{
   margin: auto;
+  width: 100%;
 }
 
 div.block{
