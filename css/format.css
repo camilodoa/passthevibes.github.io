@@ -12,7 +12,7 @@ body {
   width: 90%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    " . header header header header ."
+    " . header ."
     ". block-1 block-2 ."
     ". block-3 block-4 ."
 }
@@ -85,13 +85,15 @@ div.block{
   display: inline-block;
   float: none;
   text-align: center;
-  /* border-radius: 25px; */
-  background-color: #DCDCDC;
-  font-color: #696969;
+  /* background-color: #DCDCDC; */
   margin: 40px;
-  border-width:2px;
+  border-width:1px;
   border-style:solid;
-  border-color:black;
+  border-color:#696969;
+}
+
+span.info{
+  font-color: #696969;
 }
 
 div.block.1{
