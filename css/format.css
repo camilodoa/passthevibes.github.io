@@ -53,6 +53,7 @@ img{
   font-weight: 400;
   font-stretch: semi-expanded;
   background-color: #696969;
+  margin: auto;
 }
 
 #title{
@@ -64,6 +65,7 @@ img{
   text-transform: uppercase;
   color: white;
 }
+
 #bio{
   color: white;
   font-weight: inherit;
@@ -75,6 +77,9 @@ img{
 /*
   song block stuff
 */
+div.features{
+  margin: auto;
+}
 
 div.block{
   display: inline-block;
