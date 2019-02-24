@@ -8,11 +8,11 @@ body {
   min-width: 960px;
   /* max-width: 1024px; */
   width: 100%;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr;
   grid-template-areas:
     " header header header header "
     ". block-1 block-2 ."
-    ". block-3 block-4 ."
+    ". block-3 block-4 ." */
 }
 
 
