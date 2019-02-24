@@ -5,6 +5,9 @@ body/main div formatting
   display: inline-block;
 }
 body {
+  float: none;
+  margin: auto;
+  max-width: 960;
   width: 100%;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
@@ -13,8 +16,11 @@ body {
     ". block-3 block-4 ."
 }
 
-@media only screen and (min-width: 860px){
+@media only screen and (max-width: 860px){
   body {
+      float: none;
+      margin: auto;
+      max-width: 860;
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr ;
