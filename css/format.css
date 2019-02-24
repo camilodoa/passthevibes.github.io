@@ -24,7 +24,7 @@ body {
       max-width: 860px;
       width: 100%;
       display: grid;
-      grid-template-columns: 1fr 1fr ;
+      grid-template-columns: 1fr ;
       grid-template-areas:
         "header header header "
         ". block-1 ."
