@@ -76,7 +76,7 @@ div.center.title{
 
 #title{
   margin: 0 auto;
-  text-align: center;
+  display: inline-block;
   font-size: 4em;
   font-weight: 600;
   font-stretch: extra-expanded;
