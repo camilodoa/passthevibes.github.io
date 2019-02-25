@@ -37,10 +37,11 @@ div.header{
 
 div.center{
   text-align: center;
-  display: inline-block;
+  display: block;
   margin: auto;
-  width: 100%;
-
+  font-weight: 500;
+  font-size: 1.1em;
+  font-family: 'Roboto', sans-serif;
 }
 
 
