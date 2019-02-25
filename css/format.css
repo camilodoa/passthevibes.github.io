@@ -100,14 +100,19 @@ div.center.title{
 /*
   song block stuff
 */
+
 div.features{
   margin: auto;
   width: 100%;
   display: inline-block;
 }
 
-div.block{
+div.line{
+  text-align: center;
+}
 
+div.block{
+  display: inline-block;
   /* width: auto; */
   max-width: 300px;
   height: auto;
@@ -186,7 +191,6 @@ img.square{
   }
 
   div{
-    display: none;
     padding: 15px, 15px, 15px, 15px;
   }
 }
