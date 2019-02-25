@@ -200,9 +200,6 @@ div.icon{
     margin: 0 auto;
     /* max-width: 1024px; */
     width: 100%;
-  }
-
-  div{
-    padding: 15px, 15px, 15px, 15px;
+    max-width: 768px;
   }
 }
