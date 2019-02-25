@@ -121,6 +121,11 @@ div.block{
   max-width: 300px;
   height: auto;
 
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
   float: none;
   text-align: center;
   /* background-color: #DCDCDC; */
@@ -131,7 +136,7 @@ div.block{
 }
 
 span.info{
-  color: #E0E0E0;
+  color: #A9A9A9;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
