@@ -38,10 +38,14 @@ div.header{
 div.center{
   text-align: center;
   display: block;
+  float:left;
   margin: auto;
-  font-weight: 500;
-  font-size: 1.1em;
+  font-size: 1.5em;
   font-family: 'Roboto', sans-serif;
+  font-weight:500;
+  font-stretch: extra-expanded;
+  text-transform: uppercase;
+  color: white;
 }
 
 
