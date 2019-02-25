@@ -17,7 +17,7 @@ body {
 
 div{
   display: inline-block;
-  padding: 5px, 5px, 5px, 5px;
+  padding: 15px, 15px, 15px, 15px;
 }
 
 
@@ -178,7 +178,15 @@ img.square{
         " block-3 "
         " block-4 "
   } */
+  body{
+    float: none;
+    margin: 0 auto;
+    /* max-width: 1024px; */
+    width: 100%;
+  }
+
   div{
     display: none;
+    padding: 15px, 15px, 15px, 15px;
   }
 }
