@@ -17,7 +17,7 @@ body {
 
 div{
   display: inline-block;
-  padding: 5px;
+  padding: 5px, 5px, 5px, 5px;
 }
 
 
@@ -52,7 +52,7 @@ div.center{
   font-stretch: extra-expanded;
   text-transform: uppercase;
   color: white;
-  padding: 35px;
+  padding: 35px, 35px, 35px, 35px;
 }
 
 div.center.title{
@@ -60,7 +60,7 @@ div.center.title{
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
-  padding: 35px;
+  padding: 35px, 35px, 35px, 35px;
 }
 
 
@@ -74,7 +74,7 @@ div.center.title{
   text-transform: uppercase;
   color: #E0E0E0;
   width: 100%;
-  padding: 70px;
+  padding: 70px, 70px, 70px, 70px;
 }
 
 #bio{
