@@ -30,6 +30,7 @@ img{
 div.header{
   grid-area: header;
   align-self: center;
+  display: inline-block;
 
   background-color: #E0E0E0;
   margin: auto;
@@ -37,7 +38,6 @@ div.header{
 
 div.center{
   text-align: center;
-  display: block;
   float:left;
   margin: auto;
   font-size: 1.5em;
@@ -75,10 +75,10 @@ div.center{
 div.features{
   margin: auto;
   width: 100%;
+  display: inline-block;
 }
 
 div.block{
-  display: block;
 
   /* width: auto; */
   max-width: 300px;
