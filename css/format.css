@@ -53,6 +53,11 @@ div.center{
   text-transform: uppercase;
   color: white;
   padding: 50px, 35px, 50px, 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 div.center.title{
@@ -61,6 +66,11 @@ div.center.title{
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
   padding: 35px, 35px, 35px, 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 
