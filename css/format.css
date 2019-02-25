@@ -124,14 +124,19 @@ div.block{
   float: none;
   text-align: center;
   /* background-color: #DCDCDC; */
-  margin: 40px;
+  /* margin: 40px;
   border-width:1px;
   border-style:solid;
-  border-color:#E0E0E0;
+  border-color:#E0E0E0; */
 }
 
 span.info{
-  font-color: #696969;
+  color: #E0E0E0;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  font-stretch: extra-expanded;
 }
 
 div.block.1{
