@@ -15,6 +15,10 @@ body {
     ". block-3 block-4 ." */
 }
 
+div{
+  display: inline-block;
+}
+
 
 /*
   general stuff
