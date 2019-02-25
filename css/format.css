@@ -75,6 +75,7 @@ div.center.title{
   color: #E0E0E0;
   width: 100%;
   padding: 70px, 70px, 70px, 70px;
+  vertical-align: middle;
 }
 
 #bio{
