@@ -44,7 +44,7 @@ div.header{
 
 div.center{
   text-align: center;
-  float:left;
+  float:right;
   margin: auto;
   font-size: 1em;
   font-family: 'Roboto', sans-serif;
@@ -55,6 +55,7 @@ div.center{
 }
 
 div.center.title{
+  float:left;
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
