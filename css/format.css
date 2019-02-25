@@ -17,10 +17,10 @@ body {
 
 div{
   display: inline-block;
-  padding-top: 35px;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 35px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -115,6 +115,7 @@ div.features{
 
 div.line{
   text-align: center;
+  width: 100%;
 }
 
 div.block{
@@ -145,6 +146,7 @@ span.info{
   font-size: 1em;
   font-weight: 400;
   font-stretch: extra-expanded;
+  display: inline-block;
 }
 
 div.block.1{
