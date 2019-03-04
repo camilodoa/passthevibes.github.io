@@ -118,6 +118,16 @@ div.line{
   width: 100%;
 }
 
+span.info{
+  color: #A9A9A9;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  font-stretch: extra-expanded;
+  display: inline-block;
+}
+
 div.block{
   display: inline-block;
   border-radius: 25px;
@@ -137,16 +147,6 @@ div.block{
   border-width:1px;
   border-style:solid;
   border-color:#E0E0E0; */
-}
-
-span.info{
-  color: #A9A9A9;
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  font-stretch: extra-expanded;
-  display: inline-block;
 }
 
 div.block.1{
