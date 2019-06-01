@@ -13,10 +13,6 @@
   display: flex;
   padding: 1rem;
 }
-.linkholder{
-  float: right;
-
-}
 
 .nav-link{
   font-family: Raleway "Black";
@@ -27,6 +23,9 @@
   text-transform: uppercase;
   margin: auto;
   display: inline-block;
+  float: right;
+  padding-left: 1rem;
+
 }
 
 
@@ -46,10 +45,20 @@
 
 }
 
+.images{
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  width: 50%;
+}
+
 .img-responsive{
   height: auto;
+  max-width: 30rem;
   overflow: hidden;
   padding: 4rem;
+  align-self: center;
+
 }
 
 
@@ -70,11 +79,11 @@ div.icon{
 
 
 @media only screen and (min-width: 600px) {
- .img-responsive{
-  max-width: 30rem;
-  height: auto;
-  overflow: hidden;
-  padding: 4rem;
-}
+   .img-responsive{
+    max-width: 30rem;
+    height: auto;
+    overflow: hidden;
+    padding: 4rem;
+  }
 
 }
