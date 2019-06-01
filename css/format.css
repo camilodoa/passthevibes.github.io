@@ -17,9 +17,9 @@
 
 
 .linkholder{
-float: right;
-padding-top: inherit;
-padding-left: 3rem;
+  float: right;
+  padding-top: inherit;
+  padding-left: 3rem;
 }
 
 .nav-link{
@@ -56,6 +56,9 @@ padding-left: 3rem;
   justify-content: center;
   align-self: center;
   margin: auto;
+  width: 100%;
+
+
 }
 
 .img-responsive{
