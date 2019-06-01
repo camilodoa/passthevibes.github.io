@@ -1,157 +1,35 @@
 /*
-body/main div formatting
+  nav header
 */
-
-body {
-  float: none;
-  margin: 0 auto;
-  min-width: 960px;
-  width: 100%;
-
-}
-
-div{
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-
-/*
-  general stuff
-*/
-
-img{
-  image-orientation: from-image;
-}
-
-/*
-  title stuff
-*/
-div.header{
+.fixed-top{
   background-color: white;
-  border-bottom: 1px;
-  border-bottom-color:black;
-  width: 100%;
+  position: fixed;
+  top: 0;
+  position: -webkit-sticky; /* Required for Safari */
+  position: sticky;
+  height: .7 rem;
 }
 
-div.center{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-
-}
-
-#responsive-logo{
-  max-width: 200px;
-}
-
-
-#title{
-  margin: 0 auto;
+.nav-link{
+  font-family: Megrim;
+  color: black;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  margin-top: auto;
+  margin-bottom: auto;
   display: inline-block;
-  font-size: 4em;
-  font-weight: 600;
-  font-stretch: extra-expanded;
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  color: #E0E0E0;
-  width: 100%;
-  padding: 70px, 70px, 70px, 70px;
-  vertical-align: middle;
 }
 
-#bio{
-  text-align: center;
-  color: white;
-  font-weight: inherit;
-  font-family: 'Open Sans', sans-serif;
-  font-stretch: inherit;
-  font-size: 1em;
+
+.logo{
+  max-width: .7rem;
 }
 
 /*
-  song block stuff
+  main section
 */
-
-div.features{
-  margin: auto;
-  width: 100%;
-  text-align: center;
-
-}
-
-div.line{
-  text-align: center;
-  width: 100%;
-}
-
-span.info{
-  color: #A9A9A9;
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  font-stretch: extra-expanded;
-  display: inline-block;
-}
-
-div.block{
-  display: inline-block;
-  border-radius: 25px;
-  /* width: auto; */
-  max-width: 300px;
-  height: auto;
-
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-
-  float: none;
-  text-align: center;
-  /* background-color: #DCDCDC; */
-  /* margin: 40px;
-  border-width:1px;
-  border-style:solid;
-  border-color:#E0E0E0; */
-}
-
-div.block.1{
-  grid-area: block-1;
-}
-
-div.block.2{
-  grid-area: block-2;
-}
-
-div.block.3{
-  grid-area: block-3;
-}
-
-div.block.4{
-  grid-area: block-4;
-}
-
-
-header.center{
-  text-align: center;
-}
-
-/*
-  image stuff
-*/
-img.square{
-  border-radius: 25px;
-  width: auto;
-  max-width: inherit;
-  height: auto;
-  border-width:1px;
-  border-style:solid;
-  border-color:#E0E0E0;
-  /* max-height: 270px; */
+.main{
+  background-color: black;
 }
 
 /*
@@ -167,32 +45,4 @@ div.icon{
   margin-right: 30px;
   margin-bottom: 30px;
   margin-top: 30px;
-}
-
-a{
-  color: #E0E0E0;
-}
-
-/*
-  media stuff
-*/
-@media only screen and (max-width: 768px){
-  /* body {
-    float: none;
-    margin: 0 auto;
-    width: 100%;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-        " header "
-        " block-1 "
-        " block-2 "
-        " block-3 "
-        " block-4 "
-  } */
-  body{
-    float: none;
-    margin: 0 auto;
-    /* max-width: 1024px; */
-    width: 100%;
-  }
 }
