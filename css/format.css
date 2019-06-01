@@ -9,27 +9,27 @@
   position: -webkit-sticky; /* Required for Safari */
   position: sticky;
   height: 10 rem;
-
+  width: 100%;
 }
 
 .nav-link{
   font-family: Raleway "Black";
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: bold;
   letter-spacing: 2px;
   color: black;
   text-transform: capitalize;
   margin: auto;
   display: inline-block;
-  padding-left: 2rem;
-  padding-bottom: 1rem;
+  padding-right: 2rem;
+  float: right;
 
 }
 
 
 .logo{
   max-width: 10rem;
-  padding-top: 1rem;
+
 }
 
 /*
@@ -37,11 +37,12 @@
 */
 .main{
   background-color: black;
-  justify-content: center;
+
 }
 
 .img-responsive{
-  max-width: 20rem;
+  height: auto;
+  overflow: hidden;
   padding: 4rem;
 }
 
