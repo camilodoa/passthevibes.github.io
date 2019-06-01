@@ -11,7 +11,15 @@
   height: 10 rem;
   width: 100%;
   display: flex;
+  justify-content: space-between;
   padding: 1rem;
+}
+
+
+.linkholder{
+float: right;
+padding-top: inherit;
+padding-left: 3rem;
 }
 
 .nav-link{
@@ -23,7 +31,6 @@
   text-transform: uppercase;
   margin: auto;
   display: inline-block;
-  float: right;
   padding-left: 1rem;
 
 }
@@ -49,7 +56,6 @@
   justify-content: center;
   align-self: center;
   margin: auto;
-  width: 50%;
 }
 
 .img-responsive{
@@ -84,6 +90,7 @@ div.icon{
     height: auto;
     overflow: hidden;
     padding: 4rem;
+    align-self: center;
   }
 
 }
