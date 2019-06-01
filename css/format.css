@@ -10,6 +10,12 @@
   position: sticky;
   height: 10 rem;
   width: 100%;
+  display: flex;
+  padding: 1rem;
+}
+.linkholder{
+  float: right;
+
 }
 
 .nav-link{
@@ -18,18 +24,17 @@
   font-weight: bold;
   letter-spacing: 2px;
   color: black;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin: auto;
   display: inline-block;
-  padding-right: 2rem;
-  float: right;
-
 }
 
 
 .logo{
   max-width: 10rem;
-
+  height: auto;
+  align-self: center;
+  float: left;
 }
 
 /*
