@@ -37,6 +37,7 @@
 */
 .main{
   background-color: black;
+  justify-content: center;
 
 }
 
@@ -60,4 +61,15 @@ div.icon{
   margin-right: 30px;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+
+
+@media only screen and (min-width: 600px) {
+ .img-responsive{
+  max-width: 30rem;
+  height: auto;
+  overflow: hidden;
+  padding: 4rem;
+}
+
 }
