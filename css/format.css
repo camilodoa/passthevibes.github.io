@@ -78,8 +78,9 @@ html {
   letter-spacing: 1px;
   color: black;
 
-  display: flex;
-  justify-content: center;
+  margin-top: -4rem;
+  padding-top: 8rem;
+  margin-bottom: 4rem;
 }
 
 .about-content{
@@ -102,6 +103,9 @@ html {
   font-weight: 500;
   letter-spacing: 1px;
   color: white;
+
+  margin-top: -4rem;
+  padding-top: 4rem;
 }
 
 
