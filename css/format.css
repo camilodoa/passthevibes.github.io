@@ -77,6 +77,13 @@ html {
   font-weight: 500;
   letter-spacing: 1px;
   color: black;
+
+  display: flex;
+  justify-content: center;
+}
+
+.about-content{
+  align-self: center;
 }
 
 /*
