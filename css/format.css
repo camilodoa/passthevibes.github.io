@@ -84,7 +84,6 @@ html {
 
 .join{
   padding: 4rem;
-
 }
 
 .join-us{
@@ -95,9 +94,6 @@ html {
   font-weight: 500;
   letter-spacing: 1px;
   color: white;
-
-  display: flex;
-  justify-content: center;
 }
 
 
