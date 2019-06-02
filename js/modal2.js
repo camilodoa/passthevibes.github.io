@@ -1,11 +1,11 @@
 // Get the modal
-var modal = document.getElementById("modal1");
+var modal = document.getElementById("modal2");
 
 // Get the button that opens the modal
-var btn = document.getElementById("modal1-b");
+var btn = document.getElementById("modal2-b");
 
 // Get the <span> element that closes the modal
-var span = document.getElementById("close1");
+var span = document.getElementById("close2");
 
 // When the user clicks on the button, open the modal
 btn.onclick = function modal1display() {
