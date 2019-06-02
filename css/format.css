@@ -54,11 +54,10 @@
 
 .images{
   margin: 0 auto;
+
 }
 
 .img-responsive{
-  height: auto;
-  max-width: 30rem;
   overflow: hidden;
   padding: 4rem;
   align-self: center;
