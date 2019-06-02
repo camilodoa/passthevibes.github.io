@@ -78,8 +78,26 @@ html {
   color: black;
 }
 
-#join{
+/*
+  join
+*/
+
+.join{
   padding: 4rem;
+
+}
+
+.join-us{
+  background-color: black;
+  padding: 4rem;
+  font-family: Raleway "Black";
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+
+  display: flex;
+  justify-content: center;
 }
 
 
