@@ -15,6 +15,8 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+  border-bottom-width: 1px;
+  border-bottom-color: #DCDCDC;
 }
 
 
@@ -102,7 +104,7 @@ html {
 */
 .icon{
   display: inline-block;
-  color: black;
+  color: white;
 }
 
 
