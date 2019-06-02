@@ -87,13 +87,13 @@ html {
 }
 
 .join-us{
-  background-color: white;
+  background-color: black;
   padding: 4rem;
   font-family: Raleway "Black";
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1px;
-  color: black;
+  color: white;
 }
 
 
