@@ -17,9 +17,6 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
     <link rel="stylesheet" type="text/css" href="css/format.css">
 
-    <link rel='stylesheet' type='text/css' href="bootstrap.min.css">
-
-
     <!-- Google Font APIs -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -27,9 +24,8 @@
 
     <!-- smooth scrolling -->
     <script type='text/javascript' src='./js/smooth-scrolling.js'></script>
+    <script type="text/javascript" src='./js/modal1.js'></script>
 
-    <!-- bootstrap -->
-    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
   </head>
 
   <body id='home'>
@@ -48,20 +44,20 @@
       <div class='container-fluid'>
         <div class='images'>
           <div class='row justify-content-center'>
-              <a href='#modal1' role="button" data-toggle='modal' data-target="#modal1">
+              <a id='modal1-b' role="button">
                 <img src='./images/juice-wrld-robbery.jpg' class="img-responsive" alt="Responsive image">
               </a>
 
-              <a href='#modal2' role="button" data-toggle='modal'  data-target="#modal2">
+              <a id='modal2-b' role="button">
                 <img src='./images/jrickgone.png_large' class="img-responsive" alt="Responsive image">
               </a>
           </div>
 
           <div class='row justify-content-center'>
-            <a href='#modal3' role="button" data-toggle='modal'  data-target="#modal2">
+            <a id='modal3-b' role="button">
               <img src='./images/juice-wrld-robbery.jpg' class="img-responsive" alt="Responsive image">
             </a>
-            <a href='#modal4' role="button" data-toggle='modal' data-target="#modal">
+            <a id='modal4-b' role="button">
               <img src='./images/juice-wrld-robbery.jpg' class="img-responsive" alt="Responsive image">
             </a>
           </div>
@@ -100,7 +96,8 @@
       <br>
       <br>
       <div id='join'>
-      <a href="mailto: slepton.tk@gmail.com" target="_blank" rel="noopener noreferrer">
+      <a href="mailto: slepton.tk@gmail.com" target="_blank" rel="noopener noreferrer"
+      class="">
         Submit your review
       </a>
       <div>
@@ -129,8 +126,12 @@
     </section>
 
     <!-- modals: -->
-    <div id='modal1' data-toggle="modal" data-target="#modal1">
-
+    <div id='modal1'  class='modal'>
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>modal1</p>
+      </div>
     </div>
 
   </body>
