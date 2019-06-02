@@ -15,7 +15,7 @@ html {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #D3D3D3;
 }
 
 
