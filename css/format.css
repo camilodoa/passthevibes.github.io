@@ -139,6 +139,10 @@ html {
   padding: 10px;
   border: 1px solid #888;
   width: 90%; /* Could be more or less, depending on screen size */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* The Close Button */
@@ -155,6 +159,30 @@ html {
   text-decoration: none;
   cursor: pointer;
 }
+
+/* Modal title */
+.modal-title{
+  width: 100%;
+  flex-direction: column;
+  padding: 4rem;
+  font-family: Raleway "Black";
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.article{
+  width: 100%;
+  flex-direction: column;
+  padding: 4rem;
+  font-family: Raleway "Black";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: black;
+}
+
 /* Add Animation */
 @-webkit-keyframes animatetop {
   from {top:-300px; opacity:0}
