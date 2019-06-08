@@ -118,6 +118,11 @@ html {
 /*
   modal stuff
 */
+
+body.modal-open {
+    overflow: hidden;
+}
+
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
@@ -145,7 +150,7 @@ html {
 .close {
   color: #aaa;
   float: right;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -176,12 +181,12 @@ html {
   align-items: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 7%;
+  padding-right: 7%;
   font-family: Raleway "Black";
   font-size: 1rem;
   font-weight: 400;
-  line-height: 2rem;
+  line-height: 1.5rem;
   color: black;
 }
 
