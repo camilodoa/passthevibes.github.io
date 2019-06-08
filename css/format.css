@@ -139,17 +139,13 @@ html {
   padding: 10px;
   border: 1px solid #888;
   width: 90%; /* Could be more or less, depending on screen size */
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  }
 
 /* The Close Button */
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 4rem;
   font-weight: bold;
 }
 
@@ -162,9 +158,11 @@ html {
 
 /* Modal title */
 .modal-title{
-  width: 100%;
+  display: flex;
   flex-direction: column;
-  padding: 4rem;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   font-family: Raleway "Black";
   font-size: 1.5rem;
   font-weight: 500;
@@ -173,15 +171,28 @@ html {
 }
 
 .article{
-  width: 100%;
+  display: flex;
   flex-direction: column;
-  padding: 4rem;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 10%;
+  padding-right: 10%;
   font-family: Raleway "Black";
   font-size: 1rem;
   font-weight: 400;
-  letter-spacing: 1px;
+  line-height: 2rem;
   color: black;
 }
+
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
@@ -233,4 +244,21 @@ html {
     border: 1px solid #888;
     width: 90%; /* Could be more or less, depending on screen size */
   }
+
+
+.article{
+  width: 100%;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: Raleway "Black";
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  color: black;
+}
+
 }
