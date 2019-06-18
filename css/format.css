@@ -67,7 +67,10 @@ html {
   overflow: hidden;
   padding: 4rem;
   align-self: center;
-
+  max-width: 100%;
+  max-height: auto;
+  height: 500px;
+  width: 500px;
 }
 
 .about{
@@ -228,11 +231,13 @@ body.modal-open {
 
 @media only screen and (min-width: 600px) {
    .img-responsive{
-    max-width: 30rem;
-    height: auto;
     overflow: hidden;
     padding: 4rem;
     align-self: center;
+    max-width: 100%;
+    max-height: auto;
+    height: 550px;
+    width: 550px;
   }
   .nav-link{
     font-family: Raleway "Black";
