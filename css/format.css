@@ -60,6 +60,7 @@ html {
 
 .images{
   margin: 0 auto;
+  padding-bottom: 2rem;
 
 }
 
@@ -73,20 +74,22 @@ html {
 }
 
 .about{
-  padding: 4rem;
   font-family: Raleway "Black";
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 1px;
   color: black;
 
-  margin-top: -4rem;
-  padding-top: 8rem;
-  margin-bottom: 4rem;
+  margin-top: -2rem;
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
 }
 
 .about-content{
-  align-self: center;
+ 
 }
 
 /*
@@ -250,6 +253,7 @@ body.modal-open {
 
   }
   .about{
+    margin-bottom: -2rem;
     padding-left: 25%;
     padding-right: 25%;
     font-family: Raleway "Black";
