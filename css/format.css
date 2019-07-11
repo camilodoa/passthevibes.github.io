@@ -60,7 +60,7 @@ html {
 
 .images{
   margin: 0 auto;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
 
 }
 
@@ -74,7 +74,7 @@ html {
 }
 
 .about{
-  padding: 4rem;
+  padding: 2rem;
  font-family: Raleway "Black";
  font-size: 1rem;
  font-weight: 500;
@@ -83,7 +83,7 @@ html {
 
  margin-top: -4rem;
  padding-top: 8rem;
- margin-bottom: 4rem;
+ margin-bottom: 2rem;
 }
 
 .about-content{
@@ -108,7 +108,7 @@ html {
   letter-spacing: 1px;
   color: white;
 
-  margin-top: -4rem;
+  margin-top: -6rem;
   padding-top: 4rem;
 
   display: flex;
