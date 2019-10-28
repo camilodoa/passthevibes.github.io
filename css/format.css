@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
 /*
   nav header
 */
@@ -93,10 +97,6 @@ html {
   join
 */
 
-.join{
-  padding: 4rem;
-}
-
 .join-us{
   background-color: black;
   padding: 4rem;
@@ -112,6 +112,54 @@ html {
   align-items: center;
 }
 
+.join-us.white{
+  background-color: white;
+  padding: 4rem;
+  font-family: Raleway "Black";
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  margin: .5rem 2rem;
+  display: inline-block;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+
+  background-color: black;
+  font-family: Raleway "Black";
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: white;
+}
+.footer.white{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+
+  background-color: white;
+  font-family: Raleway "Black";
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: black;
+}
 
 /*
   modal stuff
@@ -210,6 +258,10 @@ body.modal-open {
   border: 0;
 }
 
+.iframe{
+    width: 100%;
+    height: 1200px;
+  }
 
 /* Add Animation */
 @-webkit-keyframes animatetop {
@@ -224,6 +276,10 @@ body.modal-open {
 
 
 @media only screen and (min-width: 600px) {
+  .iframe{
+    width:640px;
+    height:1200px;
+  }
    .img-responsive{
     overflow: hidden;
     padding: 4rem;
