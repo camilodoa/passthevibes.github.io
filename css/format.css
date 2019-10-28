@@ -5,6 +5,18 @@ a {
   text-decoration: inherit;
   color: inherit;
 }
+
+button {
+  border:none;
+  background-color:transparent;
+}
+input{
+  border:none;
+  background-color:transparent;
+  outline:none;
+}
+
+
 /*
   nav header
 */
@@ -137,7 +149,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 2 rem;
 
   background-color: black;
   font-family: Raleway "Black";
