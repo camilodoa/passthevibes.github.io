@@ -26,10 +26,9 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142413830-1"></script>
     <script type="text/javascript" src='./js/analytics.js'></script>
-
   </head>
 
-  <body id='home'>
+  <body id='home' onload="opensharedlink()">
 
     <!-- navbar -->
     <nav class='fixed-top'>
@@ -185,6 +184,10 @@
           and keep an eye out for Bakar’s <i>Will You Be My Yellow?</i>.
           <br>
           <br>
+          <div>
+            <span><b>Share:</b></span>
+            <button onclick="copyToClipboard(1)" class="btn btn-light"><input type="text" value="https://slepton.tk#a?=1" id="input1"></button>
+          </div>
         </div>
       </section>
 
@@ -254,10 +257,12 @@
                target="_blank">
             Spotify
             </a>.
-
             <br>
             <br>
-
+            <div>
+              <span><b>Share:</b></span>
+              <button onclick="copyToClipboard(2)" class="btn btn-light"><input type="text" value="https://slepton.tk#a?=2" id="input2"></button>
+            </div>
           </div>
         </section>
       </div>
@@ -302,6 +307,10 @@
             “Riot” an exciting listen.
             <br>
             <br>
+            <div>
+              <span><b>Share:</b></span>
+              <button onclick="copyToClipboard(3)" class="btn btn-light"><input type="text" value="https://slepton.tk#a?=3" id="input3"></button>
+            </div>
           </div>
         </section>
       </div>
@@ -361,6 +370,10 @@
             in June, but is now out on all streaming platforms.
             <br>
             <br>
+            <div>
+              <span><b>Share:</b></span>
+              <button onclick="copyToClipboard(4)" class="btn btn-light"><input type="text" value="https://slepton.tk#a?=4" id="input4"></button>
+            </div>
           </div>
         </section>
       </div>
@@ -370,5 +383,8 @@
     <script type="text/javascript" src='./js/modal2.js'></script>
     <script type="text/javascript" src='./js/modal3.js'></script>
     <script type="text/javascript" src='./js/modal4.js'></script>
+    <!-- Shared link JS -->
+    <script type="text/javascript" src='./js/opensharedlink.js'></script>
+    <script type="text/javascript" src='./js/copy.js'></script>
   </body>
 </html>
