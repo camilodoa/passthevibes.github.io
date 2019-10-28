@@ -137,7 +137,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 
   background-color: black;
   font-family: Raleway "Black";
@@ -151,7 +151,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 
   background-color: white;
   font-family: Raleway "Black";
